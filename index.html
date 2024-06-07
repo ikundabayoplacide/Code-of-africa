@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="image-container">
+    <div class="image-details">
+      <img src="./image/fennec fox.jpg" class="image">
+      <div class="image-name">
+        <h3>FENNEC FOX</h3>
+        <small>India</small>
+        <button class="button">Know more &rarr;</button>
+      </div>
+    </div>
+    <div class="image-details">
+      <img src="./image/Hump Back whale.jpeg" class="image">
+      <div class="image-name">
+        <h3>HUMPBACK WHALE</h3>
+        <small>South Africa</small>
+        <button class="button">Know more &rarr;</button>
+      </div>
+    </div>
+    <div class="image-details">
+      <img src="./image/common brown baboon.jpeg" class="image">
+      <div class="image-name" id="common_brown">
+        <h3 style="width: 250px;"> COMMON BROWN BABOON</h3>
+        <small>South Africa</small>
+        <button class="button">Know more &rarr;</button>
+      </div>
+    </div>
+    <div class="image-details">
+      <img src="image/spotted deer.jpeg" class="image">
+      <div class="image-name">
+        <h3>SPOTTED DEER</h3>
+        <small>Amazon</small>
+        <button class="button">Know more &rarr;</button>
+      </div>
+    </div>
+  </div>
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullsizeImage">
+    <div id="caption"></div>
+    <div id="thumbnails"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
